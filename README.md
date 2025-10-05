@@ -130,7 +130,17 @@ ng test
 
 ## 📱 Screenshots
 
-[Add your application screenshots here]
+### Task List View 📋
+![Task List](.github/images/task-list.png)
+*Main task list showing all tasks with their status*
+
+### Create Task Form ✨
+![Create Task](.github/images/create-task.png)
+*Form for creating new tasks with title and description*
+
+### API Documentation 📚
+![Swagger API](.github/images/swagger-api.png)
+*Swagger UI showing all available API endpoints*
 
 ## 🤝 Contributing
 
