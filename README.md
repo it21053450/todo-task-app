@@ -153,9 +153,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📞 Contact
 
-Your Name - [@Oditha Herath)
+Your Name - Oditha Herath
 
 Project Link: [https://github.com/it21053450/todo-task-app](https://github.com/it21053450/todo-task-app)
 
 ---
-⌨️ with ❤️ by [Oditha) 🚀
+⌨️ with ❤️ by Oditha 🚀
