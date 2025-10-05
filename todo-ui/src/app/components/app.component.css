@@ -1,0 +1,9 @@
+header h1 {
+  color: #333;
+  font-weight: 600;
+}
+
+footer {
+  border-top: 1px solid #dee2e6;
+  padding-top: 1rem;
+}
