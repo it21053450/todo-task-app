@@ -1,0 +1,14 @@
+<div class="container">
+  <header class="my-4">
+    <h1 class="text-center">{{ title }}</h1>
+  </header>
+
+  <main>
+    <app-task-form (taskCreated)="onTaskCreated()"></app-task-form>
+    <app-task-list></app-task-list>
+  </main>
+
+  <footer class="text-center mt-5 mb-3">
+    <p class="text-muted">© 2025 Todo App</p>
+  </footer>
+</div>

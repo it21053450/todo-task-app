@@ -1,0 +1,49 @@
+<div class="task-form">
+  <div class="card">
+    <div class="card-body">
+      <h5 class="card-title">Create New Task</h5>
+      
+      <div *ngIf="error" class="alert alert-danger" role="alert">
+        {{ error }}
+      </div>
+
+      <form (ngSubmit)="onSubmit()">
+        <div class="mb-3">
+          <label for="title" class="form-label">Title</label>
+          <input 
+            type="text" 
+            class="form-control" 
+            id="title"
+            [(ngModel)]="task.title"
+            name="title"
+            [disabled]="submitting"
+            required
+            maxlength="200"
+            placeholder="Enter task title">
+        </div>
+
+        <div class="mb-3">
+          <label for="description" class="form-label">Description</label>
+          <textarea 
+            class="form-control" 
+            id="description"
+            [(ngModel)]="task.description"
+            name="description"
+            [disabled]="submitting"
+            required
+            maxlength="1000"
+            rows="3"
+            placeholder="Enter task description"></textarea>
+        </div>
+
+        <button 
+          type="submit" 
+          class="btn btn-primary"
+          [disabled]="submitting || !task.title.trim() || !task.description.trim()">
+          <span *ngIf="submitting" class="spinner-border spinner-border-sm me-2"></span>
+          {{ submitting ? 'Creating...' : 'Create Task' }}
+        </button>
+      </form>
+    </div>
+  </div>
+</div>
